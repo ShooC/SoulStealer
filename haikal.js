@@ -4985,7 +4985,7 @@ Ketik > m.chat ( di group dulu )
 ┣❏bugbcaudio [ Bug Audio Broadcast ]
 ┣❏bugbctext [ Bug Text Broadcast ]
 ┗━━⊱[°rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SoulBotz"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SoulBotz`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
