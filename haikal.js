@@ -1396,7 +1396,7 @@ await sleep(20)
 break
 //=================================================//
 /*BUG WACAP */
-case 'gasrexju' : {
+case 'gassoul' : {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
@@ -1646,7 +1646,7 @@ break
 case 'bugbctext': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!text) throw `*Type some text*\n\nExample : ${prefix + command} rexjumods`
+if (!text) throw `*Type some text*\n\nExample : ${prefix + command} soul`
 let doc = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `© ${botname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${haikal.user.name},;;;\nFN:${botname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': await getBuffer(picak+'Brodcast'), thumbnail: await getBuffer(picak+'Brodcast'),sendEphemeral: true}}}
 let anu = await store.chats.all().map(v => v.id)
 m.reply(`*Send Broadcast To* ${anu.length} Chat\n*Time ${anu.length * 1.5} seconds*`)
@@ -2666,7 +2666,7 @@ const result4 = `*DOWNLOAD MEDIAFIRE*
 *Size* : ${baby1[0].size}
 *Mime* : ${baby1[0].mime}
 *Link* : ${baby1[0].link}\n
-_whoa wait zimbot processing..._
+_whoa wait slime bot processing..._
 
 *S O U L͢*`
 reply(`${result4}`)
@@ -4593,6 +4593,10 @@ case 'menu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `Hai ${pushname} 👋 Selamat ${salam}
 
+𝕾 𝕺 𝖀 𝕷
+            𝕭 𝕺 𝕿
+            
+
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 ┏━━⊱
 ┣❏ Bugmenu  ➥ 
@@ -4608,10 +4612,6 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `Hai ${pushname} 👋 Sel
 ┣❏ Autovn on / off  ➥ 
 ┣❏ Autoavailable on / off  ➥ 
 ┣❏ Welcome on / off [ Crash ]  ➥ 
-┗━━⊱
- ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-┏━━⊱
-┣❏➥ ❍ Menu Mods ❍
 ┗━━⊱
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 ┏━━⊱
@@ -4658,7 +4658,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 ┣❏souljagoan [ reply target ]
 ┣❏soulsange [ Harus Menjadi Admin ]
 ┣❏bugtiktok [ Link ] - Bug Sw
-┗━━⊱[°rexju°]
+┗━━⊱[°S O U L°]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ TARGET ]
 ┣❏🔥 628xxx|5|5
@@ -4666,14 +4666,16 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ © Hay Kak ${pushnam
 ┣❏soulskuy 628xxx
 ┣❏soulsantet 628xxx@s.whatsapp.net|10|10s
 ┣❏catalogpc 628xxx@s.whatsapp.net|10|10s
-┗━━⊱[°rexju°]
+┗━━⊱[°𝕾 𝕺 𝖀 𝕷°]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+Note:
 Ketik > m.chat ( di group dulu )
+
 ┏━━⊱[ GROUP ]
-┣❏gasrexju 112674448xxx
+┣❏gassoul 112674448xxx
 ┣❏soulsantetgc  1237891xxxx@g.us|10|10s
 ┣❏cataloggc 1237891xxxx@g.us|10|10s
-┗━━⊱[°rexju°]
+┗━━⊱[°𝕾 𝕺 𝖀 𝕷°]
 ┏━━⊱[ BUG ]
 ┣❏💀 [ jumlah ]
 ┣❏👽 [ jumlah ]
@@ -4806,7 +4808,8 @@ Ketik > m.chat ( di group dulu )
 ┣❏ahyangbetul [ jumlah ]
 ┣❏ampunsuhu [ jumlah ]
 ┣❏mexdemam [ jumlah ]
-┗━━⊱[°rexju°]
+┗━━⊱[°𝕾 𝕺 𝖀 𝕷°]
+
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ JADI BUG VIP ]
 ┣❏jadikatalog [reply sticker] jumlah
@@ -4836,7 +4839,7 @@ Ketik > m.chat ( di group dulu )
 ┣❏jadibug3 [Reply Audio Jadi Bug Vn]
 ┣❏jadibug4 [Reply Sticker Jadi Bug Gambar]
 ┣❏jadibug5 [Reply Gambar Jadi Bug Once] 
-┗━━⊱[°rexju°]
+┗━━⊱[𝖙𝖍𝖊 𝖘𝖔𝖚𝖑]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ VIRTEXT ]
 ┣❏soul𝐯irtext1 [ jumlah ]
@@ -4849,7 +4852,7 @@ Ketik > m.chat ( di group dulu )
 ┣❏soul𝐯irtext8 [ jumlah ]
 ┣❏soul𝐯irtext9 [ jumlah ]
 ┣❏soul𝐯irtext10 [ jumlah ]
-┗━━⊱[°rexju°]
+┗━━⊱[𝖙𝖍𝖊 𝖘𝖔𝖚𝖑]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ┏━━⊱[ SPAM ]
@@ -4977,14 +4980,14 @@ Ketik > m.chat ( di group dulu )
 ┣❏crashar19 [ jumlah ]
 ┣❏crashar20 [ jumlah ]
 ┣❏spam [ Reply Pesan ]
-┗━━⊱[°rexju°]
+┗━━⊱[𝖙𝖍𝖊 𝖘𝖔𝖚𝖑]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ┏━━⊱[ BROADCAST ]
 ┣❏bugbcimage [ Bug image Broadcast ]
 ┣❏bugbcvideo [ Bug Video Broadcast ]
 ┣❏bugbcaudio [ Bug Audio Broadcast ]
 ┣❏bugbctext [ Bug Text Broadcast ]
-┗━━⊱[°rexju°]`,
+┗━━⊱[𝖙𝖍𝖊 𝖘𝖔𝖚𝖑]`,
 contextInfo:{"externalAdReply": {"title": `SoulBotz`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
