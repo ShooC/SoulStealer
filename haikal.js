@@ -447,7 +447,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${iphone}` }, { quoted: doc })
 }
 }
 break
@@ -457,7 +457,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone1}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${iphone1}` }, { quoted: doc })
 }
 }
 break
@@ -467,7 +467,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone2}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${iphone2}` }, { quoted: doc })
 }
 }
 break
@@ -477,7 +477,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone3}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${iphone3}` }, { quoted: doc })
 }
 }
 break
@@ -487,7 +487,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone4}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${iphone4}` }, { quoted: doc })
 }
 }
 break
@@ -497,7 +497,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone5}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${iphone5}` }, { quoted: doc })
 }
 }
 break
@@ -507,7 +507,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone6}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${iphone6}` }, { quoted: doc })
 }
 }
 break
@@ -517,7 +517,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${buttonkal}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${buttonkal}` }, { quoted: doc })
 }
 }
 break
@@ -527,7 +527,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${buttonvirus}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${buttonvirus}` }, { quoted: doc })
 }
 }
 break
@@ -537,7 +537,7 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${ngazap(prefix)}`}, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `🔥 ${teks} ${ngazap(prefix)}`}, { quoted: doc })
 }
 }
 break
@@ -572,7 +572,7 @@ haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMe
 mimetype: 'audio/mpeg', caption: `🔥 ${teks} ${buttonkal}`,
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}}}}, { quoted:doc})
 }
@@ -852,7 +852,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${iphone}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${iphone}` }, { quoted: doc })
 }
 }
 break
@@ -862,7 +862,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${iphone1}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${iphone1}` }, { quoted: doc })
 }
 }
 break
@@ -872,7 +872,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${iphone2}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${iphone2}` }, { quoted: doc })
 }
 }
 break
@@ -882,7 +882,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${iphone3}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${iphone3}` }, { quoted: doc })
 }
 }
 break
@@ -892,7 +892,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${iphone4}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${iphone4}` }, { quoted: doc })
 }
 }
 break
@@ -902,7 +902,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${iphone5}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${iphone5}` }, { quoted: doc })
 }
 }
 break
@@ -912,7 +912,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${iphone6}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${iphone6}` }, { quoted: doc })
 }
 }
 break
@@ -922,7 +922,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${buttonkal}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${buttonkal}` }, { quoted: doc })
 }
 }
 break
@@ -932,7 +932,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${buttonvirus}` }, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${buttonvirus}` }, { quoted: doc })
 }
 }
 break
@@ -942,7 +942,7 @@ if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `S O U L${ngazap(prefix)}`}, { quoted: doc })
+haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKxqxp-KMrZkjybMMhBaTErvj3ypbpBSGuQ&usqp=CAU' }, caption: `S O U L${ngazap(prefix)}`}, { quoted: doc })
 }
 }
 break
@@ -1363,7 +1363,7 @@ haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.
 mimetype: 'audio/mpeg', caption: `${buttonkal}`,
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}}}}, { quoted:doc})
 }
@@ -2621,13 +2621,6 @@ if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Invalid!\n\nYg mau di cek siapa kontol?`)
 predea = await axios.get(`https://api.agify.io/?name=${q}`)
 reply(`Nama : ${predea.data.name}\n*Mati Pada Umur :* ${predea.data.age} Tahun.\n\n_Cepet Cepet Tobat Bro Soalnya Mati ga ada yang tau_`)
-break
-//=================================================//
-//=================================================//
-case 'sc': {
-if (isBan) throw sticBanLu(from)
-reply('SC SLEMEKK NI BOS')
-}
 break
 //=================================================//
 case 'chat': {
@@ -4639,11 +4632,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `Hai ${pushname} 👋 Sel
 ┣❏ Ownermenu  ➥ 
 ┗━━⊱
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-S O U L͢`, contextInfo:{"externalAdReply": {"title": `SC °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+S O U L͢`, contextInfo:{"externalAdReply": {"title": `SoulBotz"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -4992,11 +4985,11 @@ Ketik > m.chat ( di group dulu )
 ┣❏bugbcaudio [ Bug Audio Broadcast ]
 ┣❏bugbctext [ Bug Text Broadcast ]
 ┗━━⊱[°rexju°]`,
-contextInfo:{"externalAdReply": {"title": `SC °rexju°͢`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SoulBotz"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5055,7 +5048,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5091,7 +5084,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5136,7 +5129,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5155,7 +5148,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5185,7 +5178,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5223,7 +5216,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5249,7 +5242,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5264,7 +5257,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5285,7 +5278,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5318,7 +5311,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5337,7 +5330,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5353,7 +5346,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5388,7 +5381,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5426,7 +5419,7 @@ contextInfo:{"externalAdReply": {"title": `Soul Botz`,"body": `Selamat ${salam} 
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
@@ -5603,7 +5596,7 @@ contextInfo:{"externalAdReply": {"title": `SC © °rexju`,"body": `Selamat ${sal
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
+thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVArUlpI9tG200O9Nf6GCQ9ehD8Vg&usqp=CAU', 
 }
 }}, { quoted:m})
 }
