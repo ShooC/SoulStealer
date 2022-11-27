@@ -4632,7 +4632,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `Hai ${pushname} 👋 Sel
 ┣❏ Ownermenu  ➥ 
 ┗━━⊱
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-S O U L͢`, contextInfo:{"externalAdReply": {"title": `SoulBotz"body": `Selamat ${salam} kak ${pushname}`,
+S O U L͢`, contextInfo:{"externalAdReply": {"title": `SoulBotz`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `nekopoi.care`,
