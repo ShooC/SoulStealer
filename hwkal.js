@@ -21,7 +21,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 //=================================================//
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
-global.youtube = 'https://youtube.com/c/HwModsWa857' // ubah aia
+global.youtube = 'https://youtube.com' // ubah aia
 global.ig = '@soul' // ubah aja
 global.email = 'nekopoi@gmail.com'
 global.region = 'indonesia'
@@ -31,8 +31,8 @@ global.botname = 'Soul The Manipulator' //ubah jadi nama bot mu, note tanda ' ga
 global.footer = 'S O U L' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['6285731251127'] // ubah aja pake nomor lu
-global.premium = ['6285731251127'] // ubah aja pake nomor lu
+global.owner = ['6283177947582'] // ubah aja pake nomor lu
+global.premium = ['6283177947582'] // ubah aja pake nomor lu
 global.packname = 'Soul The Manipulator' // ubah aja
 global.ownerr = ['Soul'] // ubaha aja
 global.author = 'S O U L' //ubah aja
