@@ -26,16 +26,16 @@ global.ig = '@soul' // ubah aja
 global.email = 'nekopoi@gmail.com'
 global.region = 'indonesia'
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = 'Soul' //ubah jadi nama mu, note tanda ' gausah di hapus!
-global.botname = 'Soul The Manipulator' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.footer = 'S O U L' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = 'Visual Sekai' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.botname = 'The visual sekai' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.footer = 'Visual Sekai' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['6283177947582'] // ubah aja pake nomor lu
-global.premium = ['6283177947582'] // ubah aja pake nomor lu
-global.packname = 'Soul The Manipulator' // ubah aja
-global.ownerr = ['Soul'] // ubaha aja
-global.author = 'S O U L' //ubah aja
+global.owner = ['6285731251228'] // ubah aja pake nomor lu
+global.premium = ['6285731251228'] // ubah aja pake nomor lu
+global.packname = 'Visual Sekai' // ubah aja
+global.ownerr = ['Visual Sekai'] // ubaha aja
+global.author = 'Visual Sekai' //ubah aja
 global.sessionName = './sessionye/session' //Gausaj Di Ubah
 global.prefa = ['','!','.',',','🐤','🗿'] // Gausah Mendingan 
 global.sp = '⭔' // Gausah Juga
